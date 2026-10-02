@@ -28,7 +28,7 @@ const Contacts = () => {
         <h1 className="font-medium text-3xl mb-1 tite-font text-white sm:text-6xl text-center">How to Find Me</h1>
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            <iframe
+            {/* <iframe
               src="https://www.google.com/maps/embed/v1/place?q=Dharan,+Nepal&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
               frameBorder={0}
               width="100%"
@@ -38,7 +38,7 @@ const Contacts = () => {
               marginHeight={0}
               margineWidth={0}
               style={{ filter: "opacity(0.7)" }}
-            ></iframe>
+            ></iframe> */}
             <div className="bg-gray-900 relative flex flex-wrap py-6 px-9 rounded shadow-md">
               <div className="lg:w-1/2 px-3">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -67,7 +67,7 @@ const Contacts = () => {
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h1 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Want tO Hire Me
+            Want to Hire Me
           </h1>
           <p className="leading-relaxed mb-5 text-center">
           My path as a self-made developer is a reflection of my dedication to learning and keeping up with current business trends. I've completed a number of projects successfully, showcasing my capability to convert ideas into excellent solutions. In addition to my technical proficiency, what makes me unique is my commitment to providing outcomes that go above and beyond.
